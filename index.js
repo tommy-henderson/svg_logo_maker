@@ -1,7 +1,9 @@
+// Links inquirer, FS, and shapes JS sheet
 const fs = require('fs');
 const inquirer = require("inquirer");
 const { Triangle, Square, Circle } = require('./lib/shapes.js')
 
+// function that asks inquirer questions and records answers
 function promptUser() {
   inquirer.prompt([
     {
@@ -26,6 +28,8 @@ function promptUser() {
       name: "shapeColor",
     }
   ])
+
+  // Checks whether answer length is greater than 3 and then calls writeToFile function
     .then((answers) => {
       if (answers.initials.length > 3) {
         console.log("Must enter a value of no more than 3 characters");
@@ -36,6 +40,7 @@ function promptUser() {
     });
 }
 
+// function that takes user input and uses it to create logo
 function writeToFile(fileName, answers) {
   let svgData = "";
   svgData =
