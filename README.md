@@ -1,4 +1,4 @@
-# SVG_Logo_Maker
+# SVG Logo Maker
 
 ## Description
 
@@ -21,10 +21,19 @@ https://github.com/rmessett15/SVG-Logo-Maker/tree/main
 
 Please refer to license in repo
 
-## Example Logos
+## Screenshots
 
 ![App in use](<assets/Screenshot 2023-10-09 at 9.38.07 PM.png>)
 ![Example Logo](<assets/Screenshot 2023-10-09 at 9.38.31 PM.png>)
 
+## Example Logos
+
+![Logo 1](examples/logo.svg)
+![Logo 2](examples/logo2.svg)
+![Logo 3](examples/logo3.svg)
+
 ## Screen Recording
 
+https://drive.google.com/file/d/1BnAIZ2p1fT-oIZel6721jv0cMQ4OU9-B/view
+
+![Usage GIF](<SVG Maker.gif>)
