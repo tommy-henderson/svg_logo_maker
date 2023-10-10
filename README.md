@@ -23,4 +23,8 @@ Please refer to license in repo
 
 ## Example Logos
 
+![App in use](<assets/Screenshot 2023-10-09 at 9.38.07 PM.png>)
+![Example Logo](<assets/Screenshot 2023-10-09 at 9.38.31 PM.png>)
+
 ## Screen Recording
+
